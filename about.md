@@ -14,4 +14,4 @@ A place to record daily life.
 
 **nocontact**@domain.com
 
-[//] [email@domain.com](mailto:email@domain.com)
+[//]: [email@domain.com](mailto:email@domain.com)
