@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Try to write blogs
 ---
 
