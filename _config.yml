@@ -54,7 +54,7 @@ defaults:
     scope:
       path: "_posts"
     values:
-      layout: "posts"
+      layout: "post"
       author: "klory"
       category: "machine learning"
 
