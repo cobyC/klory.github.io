@@ -4,14 +4,28 @@ title: Try to write blogs
 
 First post as a start point.
 
-### Try an image
+## Try new line
+### New paragraph
+----
+One
+
+Two
+----
+
+### New line
+----
+Line one  
+Line two
+----
+
+## Try an image
 ![Avator]({{ site.baseurl }}/images/K.jpg)
 
-### Try a link
+## Try a link
 [Github](https://github.com/)
 
-### Try a math equation
-Inline examples are $$x$$, $$y$$, and $$z^2$$.
+## Try a math equation
+Inline examples are $$x$$, $$y$$, and $$z^2$$.  
 Below is an offline example.
 
 $$
