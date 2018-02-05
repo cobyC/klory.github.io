@@ -10,12 +10,15 @@ First post as a start point.
 One
 
 Two
+
 ----
 
 ### New line
 ----
+
 Line one  
 Line two
+
 ----
 
 ## Try an image
