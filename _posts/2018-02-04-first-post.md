@@ -1,4 +1,6 @@
+---
 title: Try to write blogs
+---
 
 First posts as a start point.
 
