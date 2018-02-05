@@ -49,6 +49,15 @@ url: https://klory.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "posts"
+      author: "klory"
+      category: "machine learning"
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
