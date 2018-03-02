@@ -1,5 +1,5 @@
 ---
-title: Try to write blogs
+title: Try to take paper reading notes
 ---
 
 First post as a start point.
@@ -22,7 +22,7 @@ Line two
 ----
 
 ## Try an image
-![Avator]({{ site.baseurl }}/images/K.jpg)
+![Avator]({{ site.baseurl }}/images/pale\ blue\ dot.jpg)
 
 ## Try a link
 [Github](https://github.com/)
