@@ -22,7 +22,7 @@ Line two
 ----
 
 ## Try an image
-![Avator]({{ site.baseurl }}/images/pale\ blue\ dot.jpg)
+![Avator]({{ site.baseurl }}/images/pale_blue_dot.jpg)
 
 ## Try a link
 [Github](https://github.com/)
@@ -34,6 +34,16 @@ Below is an offline example.
 $$
 1 + 2 + 3 + 4 + \dots + n = \dfrac{n^2 + n}{2}
 $$
+
+Try a python code below:
+ ```python
+def nothing():
+	nothing = None
+	return nothing
+```
+
+> Try a quote
+>> Tomorrow is tomorrow.
 
 Works like a charm!
 
