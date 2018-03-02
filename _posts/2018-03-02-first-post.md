@@ -22,7 +22,7 @@ Line two
 ----
 
 ## Try an image
-![Avator]({{ site.baseurl }}/images/pale_blue_dot.jpg)
+![Pale blue dot]({{ site.baseurl }}/images/pale_blue_dot.png)
 
 ## Try a link
 [Github](https://github.com/)
