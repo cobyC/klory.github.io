@@ -2,7 +2,7 @@
 title: Summary on attention used in VQA 
 ---
 
-####Study note on Beyond Bilinear: Generalized Multi-modal Factorized High-order Pooling for Visual Question Answering
+#### Study note on Beyond Bilinear: Generalized Multi-modal Factorized High-order Pooling for Visual Question Answering
 
 A Multi-modal Factorized Bilinear Pooling(MFB) approach is developed to achieve more effective fusion of viusal features and textual features.
 * Start from multi-modal bilinear model and factorize matrix $W_i$:
@@ -22,7 +22,7 @@ where the function $SumPool(x, k)$ means using a one-dimensional non-overlapped 
  z/\|z\|)$ normalization layers are appended after MFB output.
 * Relation to MLB: according to the author, MLB is a special case of MFB with $k = 1$.
 
-####Hierarchical Question-Image Co-Attention for Visual Question Answering
+#### Hierarchical Question-Image Co-Attention for Visual Question Answering
 * Extract hierarchical question features
 \begin{equation}
 \begin{aligned}
