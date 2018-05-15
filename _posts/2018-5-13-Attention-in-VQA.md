@@ -16,7 +16,8 @@ z_i &= x^{T}W_iy \\
 $$
 
 where $$k$$ is the factor or the latent dimentsionality of the factorized matrix. To obtain the output feature $$z \in \mathbb R^o $$, we need two three-order tensors $$ U = [U_1, \dots, U_O] \in \mathbb R^{m\times k \times o}$$ and $$ V = [V_1, \dots, V_o] \in \mathbb V^{n\times k \times o} $$.
-* Reformulate $U$ and $V$: $\tilde{U} \in \mathbb{R}^{m \times ko}$ and $\tilde{V} \in \mathbb{R}^{n \times ko}$
+* Reformulate $$U$$ and $$V$$: $$\tilde{U} \in \mathbb{R}^{m \times ko}$$ and $$\tilde{V} \in \mathbb{R}^{n \times ko}$$
+
 $$
 \begin{align*}
 z = SumPool(\tilde{U}^{T}x \circ \tilde{V}^{T}y, k)
