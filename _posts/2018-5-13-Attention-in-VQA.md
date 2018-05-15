@@ -5,15 +5,15 @@ title: Summary on attention used in VQA
 #### Study note on Beyond Bilinear: Generalized Multi-modal Factorized High-order Pooling for Visual Question Answering
 
 A Multi-modal Factorized Bilinear Pooling(MFB) approach is developed to achieve more effective fusion of viusal features and textual features.
-* Start from multi-modal bilinear model and factorize matrix \$$ (W_i$$:
+* Start from multi-modal bilinear model and factorize matrix \$$ W_i $$:
 
 $$
 \begin{equation}
-\begin{aligned}
+\begin{align*}
 z_i &= x^{T}W_iy
 &= x^{T}U_iV_i^{T}y = \sum^{k}_{d=1}
 &= \mathbb{1}^{T}(U_i^{T}x \circ V_i^{T}y)
-\end{aligned}
+\end{align*}
 \end{equation}
 $$
 
