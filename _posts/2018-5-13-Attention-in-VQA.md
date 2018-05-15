@@ -23,7 +23,7 @@ where the function $SumPool(x, k)$ means using a one-dimensional non-overlapped 
 * Relation to MLB: according to the author, MLB is a special case of MFB with $k = 1$.
 
 #### Hierarchical Question-Image Co-Attention for Visual Question Answering
-* Extract hierarchical question features
+* Extract hierarchical question features\\
 \begin{equation}
 \begin{aligned}
 \mathbf{\hat{q}}_{s,t}^p &= tanh(\mathbf{W}_c^s \mathbf{q_{t:t+s-1}^w)}, s \in {1, 2, 3}\\
@@ -31,7 +31,7 @@ where the function $SumPool(x, k)$ means using a one-dimensional non-overlapped 
 \end{aligned}
 \end{equation}
 
-* Parallel Co-Attention
+* Parallel Co-Attention\\
 \begin{equation}
 \begin{aligned}
 \mathbf{C} &= tanh(\mathbf{Q}^T\mathbf{W}_b\mathbf{V})\\
@@ -45,7 +45,7 @@ where the function $SumPool(x, k)$ means using a one-dimensional non-overlapped 
 \end{equation}
 
 The parallel Co-attention is done at each level in hierarchy, so, at last, we will get $\mathbf{v}^w, \mathbf{v}^p, \mathbf{v}^s$ and $\mathbf{q}^w, \mathbf{q}^p, \mathbf{q}^s$.
-* Alternating Co-Attention
+* Alternating Co-Attention\\
 \begin{equation}
 \begin{aligned}
 \mathbf{H} &= tanh(\mathbf{W}_x\mathbf{X} + (\mathbf{W}_g\mathbf{g})\mathbf{1}^T)\\
@@ -58,7 +58,7 @@ At the beginning, $\mathbf{X}$ is set to $\mathbf{Q}$, question features, and $\
 
 From the result of this paper, Alternating Co-attention has a better performance than Parallel Co-Attention.
 
-* Prediction
+* Prediction\\
 \begin{equation}
 \begin{aligned}
 \mathbf{h}^w &= tanh(\mathbf{w}_w(\mathbf{\hat{q}}^w + \mathbf{\hat{v}}^w))\\
