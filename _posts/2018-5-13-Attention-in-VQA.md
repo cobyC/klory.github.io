@@ -50,7 +50,7 @@ $$
 \end{align*}
 $$
 
-The parallel Co-attention is done at each level in hierarchy, so, at last, we will get $\mathbf{v}^w, \mathbf{v}^p, \mathbf{v}^s$ and $\mathbf{q}^w, \mathbf{q}^p, \mathbf{q}^s$.
+The parallel Co-attention is done at each level in hierarchy, so, at last, we will get $$\mathbf{v}^w, \mathbf{v}^p, \mathbf{v}^s$$ and $$\mathbf{q}^w, \mathbf{q}^p, \mathbf{q}^s$$.
 * Alternating Co-Attention
 
 $$
@@ -67,10 +67,11 @@ From the result of this paper, Alternating Co-attention has a better performance
 
 * Prediction
 
+$$
 \begin{align*}
 \mathbf{h}^w &= tanh(\mathbf{w}_w(\mathbf{\hat{q}}^w + \mathbf{\hat{v}}^w))\\
 \mathbf{h}^p &= tanh(\mathbf{w}_p[(\mathbf{\hat{q}}^p + \mathbf{\hat{v}^p}), \mathbf{\hat{h}}^w])\\
 \mathbf{h}^s &= tanh(\mathbf{w}_s[(\mathbf{\hat{q}}^s + \mathbf{\hat{v}^s}), \mathbf{\hat{h}}^p])\\
 \end{align*}
-
+$$
 
