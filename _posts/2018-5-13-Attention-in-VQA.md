@@ -20,7 +20,7 @@ where $$k$$ is the factor or the latent dimentsionality of the factorized matrix
 
 $$
 \begin{align*}
-z = SumPool(\tilde{U}^{T}x \circ \tilde{V}^{T}y, k)
+z = SumPool(\tilde{U}^{T}x \circ \tilde{V}^{T}y, k)\\
 \end{align*}
 $$
 where the function $$ SumPool(x, k) $$ means using a one-dimensional non-overlapped window with the size $$k$$ to perform sum pooling over $$x$$.
